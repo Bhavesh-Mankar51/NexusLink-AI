@@ -29,14 +29,6 @@
                 <h2>Interesting Facts</h2>
                 <div id="facts"></div>
             </div>
-            <div>
-                <h2>NexusLink AI</h2>
-                <div id="nexuslink-ai"></div>
-            </div>
-            <div>
-                <h2>Topics of Interest</h2>
-                <div id="topics-of-interest"></div>
-            </div>
         </main>
 
         <script>
@@ -58,7 +50,7 @@
                         throw new Error("POST request failed");
                     })
                     .then(data => {
-                        document.getElementById("profile-pic").src = data.picture_url;
+                        document.getElementById("profile-pic").src = data.photoUrl;
                         document.getElementById("summary").textContent = data.summary_and_facts.summary;
                         createHtmlList(document.getElementById("facts"), data.summary_and_facts.facts);
                         spinner.style.display = "none";

@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 from tools.tools import get_profile_url_tavily
-
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import Tool
