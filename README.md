@@ -2,7 +2,7 @@
 
 NexusLink AI is a full-stack web application that leverages a multi-step AI agent to automate the process of researching and summarizing professional LinkedIn profiles. Given a person's name, the agent finds their profile, scrapes the relevant data, and uses a Large Language Model (LLM) to generate a concise, professional summary and key facts.
 
-![NexusLink AI Screenshot](https://i.imgur.com/gY8X9bC.png)
+![NexusLink AI Screenshot](Screenshot-NexusLink-AI.png)
 
 ---
 
